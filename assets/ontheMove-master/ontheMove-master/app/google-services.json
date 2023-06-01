@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "478561200208",
+    "project_id": "onthemove-90c4c",
+    "storage_bucket": "onthemove-90c4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478561200208:android:58ad8bb12902e7b0228955",
+        "android_client_info": {
+          "package_name": "com.MM.onthemove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478561200208-vcvdnb54gd7ve6gejm51tj5aie0b3cct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.MM.onthemove",
+            "certificate_hash": "8c9adc57e99d3834eea6788f060c0a525a272bb5"
+          }
+        },
+        {
+          "client_id": "478561200208-t0rm90ocnbuqdi16pfg6emmf90onrlhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE4qT0G4ypgkGTva65YS7yO0rHleBQ7GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478561200208-t0rm90ocnbuqdi16pfg6emmf90onrlhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

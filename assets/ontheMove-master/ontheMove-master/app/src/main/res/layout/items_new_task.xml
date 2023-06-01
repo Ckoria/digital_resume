@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15 May,04:00 PM"
+                    style="@style/text14medium"/>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/tvCustomerName"
+                        style="@style/text14medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:text="Name"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/icCall"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        app:srcCompat="@drawable/call" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-5dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:srcCompat="@drawable/ic_location"
+                        app:tint="@color/colorTextLight"/>
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/text14light"
+                        android:text="Address"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-5dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:srcCompat="@drawable/ic_house"
+                        app:tint="@color/colorTextLight"/>
+
+                    <TextView
+                        android:id="@+id/tvHouseNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/text14light"
+                        android:text="HouseNumber"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-5dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:srcCompat="@drawable/ic_complex"
+                        app:tint="@color/colorTextLight"/>
+
+                    <TextView
+                        android:id="@+id/tvComplexName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/text14light"
+                        android:text="ComplexName"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:id="@+id/tvDecline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decline"
+                    style="@style/text14Bold"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="7dp"/>
+
+                <TextView
+                    android:id="@+id/tvAccept"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accept"
+                    style="@style/text14Bold"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/bg_accept"
+                    android:layout_marginLeft="7dp"/>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</layout>

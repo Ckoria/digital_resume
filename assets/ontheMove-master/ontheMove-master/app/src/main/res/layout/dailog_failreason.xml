@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            android:elevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <RadioGroup
+                    android:id="@+id/rgCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        style="@style/text12regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorRed"
+                        android:text="Customer Not Available" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_marginTop="10dp"
+                        style="@style/text12regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorRed"
+                        android:text="Other Reason" />
+
+                </RadioGroup>
+
+
+
+
+
+                <TextView
+                    android:id="@+id/tvReason"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reasonofFail"
+                    style="@style/text14light"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/etReasonofFail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/editText"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reasonofFail"
+                    style="@style/text14light"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ReasonImage"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/photo"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/nameofiamge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reasonofFailImageName"
+                    style="@style/text14light"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50dp"
+                    android:weightSum="2"
+                    android:layout_marginBottom="50dp">
+                    <Button
+                        android:layout_weight="1"
+                        android:id="@+id/btnCancelReason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnCancel"
+                        style="@style/buttonCancel"
+                        android:layout_marginRight="10dp"
+                        />
+                    <Button
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/btnSaveReason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btnSave"
+                        style="@style/button"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</layout>

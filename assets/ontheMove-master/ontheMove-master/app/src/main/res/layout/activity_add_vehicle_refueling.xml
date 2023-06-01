@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.AddVehicleRefuelingActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_back">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    style="@style/text18medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Vehicle Refueling" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnSubmit"
+            android:layout_below="@+id/appBar">
+
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text14regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Odo Meter"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etOdoMeter"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gray_border_radius"
+                    android:hint="Enter Odo meter"
+                    android:inputType="number"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    style="@style/text14regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Receipt Number"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etReceiptNo"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gray_border_radius"
+                    android:hint="Enter Receipt Number"
+                    android:inputType="text"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    style="@style/text14regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Liters"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etAmtLiters"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gray_border_radius"
+                    android:hint="Enter Liters"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+                <TextView
+                    style="@style/text14regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Amount (Rands)"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etAmtRands"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gray_border_radius"
+                    android:hint="Enter Amount (Rands)"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+
+                <TextView
+                    style="@style/text14regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Receipt Image"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/rlReceiptImg"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/gray_border_bg">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_placeholder" />
+
+                    <ImageView
+                        android:id="@+id/imgRecp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter" />
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/text14regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Dashboard Image"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/rlDashboardImg"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/gray_border_bg">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_placeholder" />
+
+                    <ImageView
+                        android:id="@+id/imgDboard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/text14medium"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_btn"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</layout>

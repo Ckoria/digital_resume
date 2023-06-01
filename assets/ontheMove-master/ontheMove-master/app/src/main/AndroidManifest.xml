@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onthemove">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <!--
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".commons.baseClasses.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme_NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.AddVehicleHealthImageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.MyTaskDetails"
+            android:exported="true" />
+        <activity
+            android:name=".activities.AddVehicleRefuelingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VehicleRefuelingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VehicleHealthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SigntureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TaskDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MainActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ViewImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_path" />
+        </provider>
+
+        <service
+            android:name=".services.LocationServices"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".services.FirebaseLocationService"
+            android:enabled="true"
+            android:foregroundServiceType="location"
+            android:exported="true" />
+
+        <service
+            android:name=".services.ApiCallStatusServices"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.ApiCallServices"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.FloatingFaceBubbleService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

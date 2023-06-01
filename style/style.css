@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+a {
+    text-decoration: none;
+    color: beige !important;
+    font-weight: 500;
+}
+img {
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+div.css-keje6w.e1tzin5v2 {
+    
+    margin-right: 10px !important;
+    margin-left: -5px !important;
+}
+/* Subheaders */
+div.css-k7vsyb.e16nr0p31{
+    font-family: "Open Sans", "Helvetica Neue";
+    font-size: 20px !important;
+}
+div.css-1vn87qs.e1tzin5v0 {
+    border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+/* Expanding */
+div.css-1x01s7c.e1s6o5jp0{
+    margin-left: 2px !important;
+    border-radius: 5px;
+
+}
+a:hover {
+    text-decoration: none;
+    color: #458 !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+#mainmenu, footer, header { visibility: hidden;}

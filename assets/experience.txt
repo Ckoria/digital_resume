@@ -1,0 +1,10 @@
+Proficient in Python programming language, with 3+ years of hands-on experience in full stack web development.
+Extensive knowledge of web frameworks such as Flask and Jinja templete, and adept at utilizing them to build efficient and secure web applications.
+Strong understanding of front-end technologies including HTML5, CSS3, JavaScript, and some other libraries and frameworks.
+Proficient in other automation languages such as Google Apps Script for automation of Google Apps, VB Excel and advanced functions including pivot tables and data visualization.
+Experience working with databases such as SQLAlchemy, MySQL, and SQLite3, and expertise in designing and optimizing database schemas.
+Skilled in developing RESTful APIs and integrating third-party APIs such as Samsung Global System (GSPN API) and RepairShopr System API to enhance application functionality.
+Familiarity with cloud platforms like Cpanel, Direct Admin, Heroku, Pythonanywhere, Streamlit Clouds, and the ability to deploy applications in cloud-based environments.
+Proficient in version control systems like Github and Gitlab using Git commands, ensuring collaborative development and efficient code management.
+Excellent problem-solving and debugging skills, with a strong ability to analyze and resolve complex technical issues.
+Effective communicator and team player, experienced in collaborating with cross-functional teams to deliver high-quality projects within deadlines.

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.SigntureActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tvTop"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_back">
+
+            <TextView
+                style="@style/text16medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Task Detail" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_below="@+id/tvTop"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lbl_sign"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_Signature"
+            />
+
+        <com.kyanogen.signatureview.SignatureView
+            xmlns:sign="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/signature_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnLinear"
+            android:layout_below="@id/lbl_sign"
+            sign:backgroundColor="#ffffff"
+            sign:enableSignature="true"
+            sign:penColor="#000000"
+            sign:penSize="5dp" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:id="@+id/tvClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:layout_marginRight="2dp"
+                style="@style/text14Bold"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/bg_accept"/>
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:id="@+id/tvSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                style="@style/text14Bold"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/bg_accept"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

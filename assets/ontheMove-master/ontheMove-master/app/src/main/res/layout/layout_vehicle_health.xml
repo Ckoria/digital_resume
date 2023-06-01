@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/text16medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="Exterior" />
+
+            <RadioGroup
+                android:id="@+id/rgCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvName"
+                android:layout_marginTop="10dp"
+                android:checkedButton="@+id/rbGood"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <RadioButton
+                    android:id="@+id/rbGood"
+                    style="@style/text12regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorGreen"
+                    android:text="Good" />
+
+                <RadioButton
+                    android:id="@+id/rbLooked"
+                    style="@style/text12regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorOrange"
+                    android:text="Need to be\nlooked at" />
+
+                <RadioButton
+                    android:id="@+id/rbRepaired"
+                    style="@style/text12regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorRed"
+                    android:text="Need to be\nrepaired" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edtComment"
+                style="@style/text14medium"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:visibility="gone"
+                android:layout_below="@+id/rgCheck"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gray_border_radius"
+                android:hint="@string/hint_comment"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        style="@style/text16Bold"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorBlack"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:text="Add Used Quantity"
+        android:textColor="@color/colorWhite" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAddQuntity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_vehical_list"
+        android:layout_below="@id/tvDialogTitle" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rvAddQuntity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btnOk" />
+
+</RelativeLayout>
