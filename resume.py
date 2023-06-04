@@ -116,8 +116,8 @@ xpand.write("""
 - ✔️ Designed Automated scheduler for in home repairs using Google Sheets and Google App Scripts which improved the customer service with a long shot and helped to clear a backlog from 2021  
 - ✔️ Automated system for vehicles which helped with servicing vehicles on time and gas filling with a monthly budget prediction model using Python and Machine Learning frameworks with google sheets APIs for data visualization
 - ✔️ Developed warranty checking tool using Samsung APIs for efficiency instead of relying on the proof of purchase which was not a reliable for warranty validation.   
-- ✔️ My main role was to automate as many tasks as possible to improve performance and working process
--
+- ✔️ My main role was to automate as many tasks as possible to improve performance and working process.
+- ✔️ Assist with development of OnTheMove App which tracks the movement of technicians and show their live location.
 """)
 xpand = st.expander(label="Reference")
 xpand.write("""
@@ -158,7 +158,7 @@ xpand.write("""
 - ✔️ Performing unit tests for On the Move mobile application
 - ✔️ Testing the performance of the Admin dashboard and suggest improvements
 - ✔️ Ensure that milestones are met and all functionalities are implemented at optimal performance 
--
+- ✔️ Adding styling on visual appearance of an app using css, javascript and bootstrap
 """)
 xpand = st.expander(label="References")
 xpand.write("""
