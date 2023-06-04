@@ -158,7 +158,7 @@ xpand.write("""
 - ✔️ Performing unit tests for On the Move mobile application
 - ✔️ Testing the performance of the Admin dashboard and suggest improvements
 - ✔️ Ensure that milestones are met and all functionalities are implemented at optimal performance 
-- ✔️ Adding styling on visual appearance of an app using css, javascript and bootstrap
+- ✔️ Adding styling on visual appearance of the admin dashboard using css, javascript and bootstrap
 """)
 xpand = st.expander(label="References")
 xpand.write("""
