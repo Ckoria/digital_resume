@@ -68,15 +68,44 @@ st.write("#")
 st.subheader(":classical_building: Skills & Training")
 st.write("---")
 xpand = st.expander(label="Education")
-xpand.write(":books: Coursera | IBM Data Science")
-xpand.write("⌛ Duration: 3 Months (2022)")
+
+xpand.write(":books: WeThinkCode | Software Engineering")
+xpand.write("⌛ Duration: 24 Months (2023 - 2024)")
+xpand.write("🔜 Status: In Progress")
+
+xpand.write(":books: CISCO | Creating Compelling Reports")
+xpand.write("⌛ Duration: 1 Months (MAR 2024)")
+xpand.write("✅ Status: Completed")
+
+xpand.write(":books: Coursera (AWS)  | AWS Cloud Technical Essentials")
+xpand.write("⌛ Duration: 2 Months (MAR 2024)")
+xpand.write("✅ Status: Completed")
+
+xpand.write(":books: CISCO  | Data Analytics Essentials")
+xpand.write("⌛ Duration: 2 Months (FEB 2024)")
+xpand.write("✅ Status: Completed")
+
+xpand.write(":books: CISCO  | Advanced Python (OOP)")
+xpand.write("⌛ Duration: 1 Month (FEB 2024)")
+xpand.write("✅ Status: Completed")
+
+xpand.write(":books: Coursera (The Hong Kong University of Science and Technology) | Python and Statistics for Financial Analysis")
+xpand.write("⌛ Duration: 2 Months (AUG 2023)")
+xpand.write("✅ Status: Completed")
+
+xpand.write(":books: Coursera  | IBM Intro to Data Science")
+xpand.write("⌛ Duration: 1 Months (FEB 2022)")
+xpand.write("✅ Status: Completed")
+
 
 xpand.write(":books: University of the Witswatersrand | BSc Computer Science")
 xpand.write("⌛ Duration: 1 year (2015)")
+xpand.write("❌ Status: Discontinued")
 
 xpand.write(":books: Isibani Academy | Grade 12")
 xpand.write("⌛ Duration: 1 year (2014)")
-    
+xpand.write("✅ Status: Completed")
+
 st.write("---")
 xpand = st.expander(label="Hard Skills")
 xpand.write(
@@ -121,9 +150,9 @@ xpand.write("""
 """)
 xpand = st.expander(label="Reference")
 xpand.write("""
-- :handshake: Liesel Goosen
-- :office_worker: General Manager
-- :telephone_receiver: (+27)10 822 1200
+- :handshake: Vinod
+- :office_worker: Project Manager
+- :telephone_receiver: (+91)96 626 61991
 """)
 
 # ----- Second Job -----
