@@ -130,7 +130,7 @@ st.subheader(":hammer_and_wrench: Work Experience")
 st.write("---")
 xpand = st.expander(label="Work Experience")
 st.write(":technologist: Job Title: Web Developer, Data Analysist & Booking Agent")
-st.write(":capital_abcd: Company Name: Samsung Customer Service
+st.write(":capital_abcd: Company Name: Samsung Customer Service" 
 st.write(f"""
 :spiral_calendar_pad: Duration: {str(datetime(2022, 1, 26))[0:11]} - {str(datetime(2023, 4 , 30))[0:11]}
 """)
