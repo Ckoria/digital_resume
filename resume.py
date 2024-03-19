@@ -68,53 +68,53 @@ st.write("#")
 st.subheader(":classical_building: Skills & Training")
 st.write("---")
 xpand = st.expander(label="Education")
-
+xpand.write("") 
 xpand.write(":books: WeThinkCode | Software Engineering")
 xpand.write("⌛ Duration: 24 Months (2023 - 2024)")
 xpand.write("🔜 Status: In Progress")
-
+xpand.write("")
 xpand.write(":books: CISCO | Creating Compelling Reports")
 xpand.write("⌛ Duration: 1 Months (MAR 2024)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 xpand.write(":books: Coursera (AWS)  | AWS Cloud Technical Essentials")
 xpand.write("⌛ Duration: 2 Months (MAR 2024)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 xpand.write(":books: CISCO  | Data Analytics Essentials")
 xpand.write("⌛ Duration: 2 Months (FEB 2024)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 xpand.write(":books: CISCO  | Advanced Python (OOP)")
 xpand.write("⌛ Duration: 1 Month (FEB 2024)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 xpand.write(":books: Coursera (The Hong Kong University of Science and Technology) | Python and Statistics for Financial Analysis")
 xpand.write("⌛ Duration: 2 Months (AUG 2023)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 xpand.write(":books: Coursera  | IBM Intro to Data Science")
 xpand.write("⌛ Duration: 1 Months (FEB 2022)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 
 xpand.write(":books: University of the Witswatersrand | BSc Computer Science")
 xpand.write("⌛ Duration: 1 year (2015)")
 xpand.write("❌ Status: Discontinued")
-
+xpand.write("")
 xpand.write(":books: Isibani Academy | Grade 12")
 xpand.write("⌛ Duration: 1 year (2014)")
 xpand.write("✅ Status: Completed")
-
+xpand.write("")
 st.write("---")
 xpand = st.expander(label="Hard Skills")
 xpand.write(
     """
-    - :u7a7a: Languages: Python, Javascript, Google App Script, VB Excel
-    - :file_cabinet: Databases: SQLAlchemy, SQLite3, mySQL
-    - :earth_africa: Web Development Technologies: Flask with Jinja templates, Apex.js, HTML5, CSS3, Wordpress and Woo Commerce Plugins 
-    - :bar_chart: Data Visualisation Tools: Excel, Google Sheets, Pandas, Plotly, Apex.js 
-    - :computer: Automation Tools: Python, Google App Script
+    - :u7a7a: Languages: Python, Javascript, Google App Script, VB Excel, Java (Beginner) 
+    - :file_cabinet: Databases: SQLAlchemy, SQLite3, MySQL, PostgreSQL
+    - :earth_africa: Web Development Technologies: Flask, Jinja2 templates, Apex.js, HTML5, CSS3, WordPress
+    - :bar_chart: Data Visualisation Tools: Excel, Google Sheets, Pandas, Plotly, Apex.js, Tableau
+    - :computer: Automation Tools: Python, Google App Script, Bash
     """)
 st.write("#")
 st.write("---")
@@ -130,7 +130,7 @@ st.subheader(":hammer_and_wrench: Work Experience")
 st.write("---")
 xpand = st.expander(label="Work Experience")
 st.write(":technologist: Job Title: Web Developer, Data Analysist & Booking Agent")
-st.write(":capital_abcd: Company Name: MM All Electronics (Samsung Customer Service)")
+st.write(":capital_abcd: Company Name: Samsung Customer Service
 st.write(f"""
 :spiral_calendar_pad: Duration: {str(datetime(2022, 1, 26))[0:11]} - {str(datetime(2023, 4 , 30))[0:11]}
 """)
