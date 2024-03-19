@@ -15,7 +15,7 @@ experience = current_dir / "assets" / "experience.txt"
 page_title = "Sindiso Ndlovu | Digital CV"
 page_icon = ":100:"
 full_name = "Sindiso Christopher Ndlovu"
-description = "Full Stack Developer and Junior Data Analyst" 
+description = "Full Stack Developer and Data Analyst" 
 email_address = "sindiso.chris@gmail.com"
 social_media = {"YouTube": "https://www.youtube.com/@TX521",
                 "LinkedIn": "https://www.linkedin.com/in/chris-ndlovu-020847116/",
@@ -32,7 +32,7 @@ projects = {"Samsung Warranty Checker App": "https://ckoria--warranty-checker-di
             "Mawox Excel Inventory System  (Github Repo with Excel File)": "https://github.com/Ckoria/excel_vba_pos",
             "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601",
             "Google Sheets and RepairShopr API Testing (Github Repo)": "https://github.com/Ckoria/APIs-Testing",
-            "On the Move App Admin Webstite  (Credintials on requets)": "https://mmallonthemove.co.za/"
+            "On the Move App Admin Webstite  (Credintials on request)": "https://mmallonthemove.co.za/"
             
         }
 
