@@ -129,8 +129,8 @@ st.write("#")
 st.subheader(":hammer_and_wrench: Work Experience")
 st.write("---")
 xpand = st.expander(label="Work Experience")
-st.write(":technologist: Job Title: Web Developer, Data Analysist & Booking Agent")
-st.write(":capital_abcd: Company Name: Samsung Customer Service") 
+st.write(":technologist: Job Title: Web Developer & App Tester)")
+st.write(":capital_abcd: Company Name: Samsung Customer Service (12 Months Contract) ") 
 st.write(f"""
 :spiral_calendar_pad: Duration: {str(datetime(2022, 1, 26))[0:11]} - {str(datetime(2023, 4 , 30))[0:11]}
 """)
@@ -160,10 +160,10 @@ st.write(f"""
 """)
 xpand = st.expander(label="Responsibilities")
 xpand.write("""
-- ✔️ Data capturing
-- ✔️ Data Analysis for business performance insights using Excel and Google Sheets
+- ✔️ Data migration, Excel to SQLite3
+- ✔️ Data Analysis for business performance insights using Python, Excel, Tableau and Google Sheets
 - ✔️ Development of Point of Sales system using Excel and VB
-- ✔️ Development of Business Management System using Python Flask Framework, HTML, CSS and JavaScript
+- ✔️ Development of Customer Management System (Web App) using Python Flask Framework, HTML, CSS and JavaScript
 - 
 """)
 xpand = st.expander(label="Reference")
