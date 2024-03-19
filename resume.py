@@ -136,14 +136,11 @@ st.write(f"""
 """)
 xpand = st.expander(label="Responsibilities")
 xpand.write("""
-- ✔️ Booking customers for repairs
-- ✔️ Perform assessment on items brought for repairs
-- ✔️ Proving advice and troubleshooting for devices with minor defects for walk in customers
 - ✔️ Development of Data Management System using Python Flask Framework, HTML5, CSS, and Javascript
 - ✔️ Integration of RepairShopr internal system with Samsung GSPN system to avoid using both systems for data capturing and referencing
 - ✔️ Automation of pricing system for Samsung parts sales instead of adjusting pricing manually since Samsung has thousands of parts for sale
 - ✔️ Designed Automated scheduler for in home repairs using Google Sheets and Google App Scripts which improved the customer service with a long shot and helped to clear a backlog from 2021  
-- ✔️ Automated system for vehicles which helped with servicing vehicles on time and gas filling with a monthly budget prediction model using Python and Machine Learning frameworks with google sheets APIs for data visualization
+- ✔️ Automated system for vehicles which helped with servicing vehicles on time and gas filling with a monthly budget prediction model using Python with google sheets APIs for data visualization
 - ✔️ Developed warranty checking tool using Samsung APIs for efficiency instead of relying on the proof of purchase which was not a reliable for warranty validation.   
 - ✔️ My main role was to automate as many tasks as possible to improve performance and working process.
 - ✔️ Assist with development of OnTheMove App which tracks the movement of technicians and show their live location.
@@ -177,7 +174,7 @@ xpand.write("""
 """)
 
 # ----- Third Job -----
-st.write(":technologist: Job Title: Unit Testing & Debugging")
+st.write(":technologist: Job Title: App Testing & Debugging")
 st.write(":capital_abcd: Company Name: Vinod | Remote")
 st.write(f"""
          :spiral_calendar_pad: Duration: {str(datetime(2022, 8, 9))[0:11]} - {str(datetime(2023, 2, 28))[0:11]}
