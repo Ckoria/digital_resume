@@ -27,12 +27,11 @@ social_media = {"YouTube": "https://www.youtube.com/@TX521",
 
 projects = {"Samsung Warranty Checker App": "https://ckoria--warranty-checker-display-2ah21s.streamlit.app/",
             "Mawox Work Management System": "https://mawox.pythonanywhere.com",
-            "TradingXposed Finacial Education Website": "https://www.tradingxposed.co.za",
             "MM All Status Tracker": "https://ckoria-ha-customers-get-customers-5w5cdv.streamlit.app/",
             "Mawox Excel Inventory System  (Github Repo with Excel File)": "https://github.com/Ckoria/excel_vba_pos",
             "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601",
             "Google Sheets and RepairShopr API Testing (Github Repo)": "https://github.com/Ckoria/APIs-Testing",
-            "On the Move App Admin Webstite  (Credintials on request)": "https://mmallonthemove.co.za/"
+            "On the Move App Admin Website  (Credentials on request)": "https://mmallonthemove.co.za/"
             
         }
 
@@ -139,11 +138,11 @@ xpand.write("""
 - ✔️ Development of Data Management System using Python Flask Framework, HTML5, CSS, and Javascript
 - ✔️ Integration of RepairShopr internal system with Samsung GSPN system to avoid using both systems for data capturing and referencing
 - ✔️ Automation of pricing system for Samsung parts sales instead of adjusting pricing manually since Samsung has thousands of parts for sale
-- ✔️ Designed Automated scheduler for in home repairs using Google Sheets and Google App Scripts which improved the customer service with a long shot and helped to clear a backlog from 2021  
-- ✔️ Automated system for vehicles which helped with servicing vehicles on time and gas filling with a monthly budget prediction model using Python with google sheets APIs for data visualization
-- ✔️ Developed warranty checking tool using Samsung APIs for efficiency instead of relying on the proof of purchase which was not a reliable for warranty validation.   
-- ✔️ My main role was to automate as many tasks as possible to improve performance and working process.
-- ✔️ Assist with development of OnTheMove App which tracks the movement of technicians and show their live location.
+- ✔️ Designed an Automated scheduler for in-home repairs using Google Sheets and Google App Scripts which improved customer service with a long shot and helped to clear a backlog from 2021  
+- ✔️ Automated system for vehicles which helped with servicing vehicles on time and gas filling with a monthly budget prediction model using Python with Google Sheets APIs for data visualization
+- ✔️ Developed warranty checking tool using Samsung APIs for efficiency instead of relying on the proof of purchase which was not reliable for warranty validation.   
+- ✔️ My main role was to automate as many tasks as possible to improve performance and working processes.
+- ✔️ Assist with the development of the OnTheMove App which tracks the movement of technicians and shows their live location.
 """)
 xpand = st.expander(label="Reference")
 xpand.write("""
@@ -161,9 +160,9 @@ st.write(f"""
 xpand = st.expander(label="Responsibilities")
 xpand.write("""
 - ✔️ Data migration, Excel to SQLite3
-- ✔️ Data Analysis for business performance insights using Python, Excel, Tableau and Google Sheets
+- ✔️ Data Analysis for business performance insights using Python, Excel, Tableau, and Google Sheets
 - ✔️ Development of Point of Sales system using Excel and VB
-- ✔️ Development of Customer Management System (Web App) using Python Flask Framework, HTML, CSS and JavaScript
+- ✔️ Development of Customer Management System (Web App) using Python Flask Framework, HTML, CSS, and JavaScript
 - 
 """)
 xpand = st.expander(label="Reference")
@@ -184,7 +183,7 @@ xpand.write("""
 - ✔️ Performing unit tests for On the Move mobile application
 - ✔️ Testing the performance of the Admin dashboard and suggest improvements
 - ✔️ Ensure that milestones are met and all functionalities are implemented at optimal performance 
-- ✔️ Adding styling on visual appearance of the admin dashboard using css, javascript and bootstrap
+- ✔️ Adding styling on the visual appearance of the admin dashboard using CSS, javascript and Bootstrap
 """)
 xpand = st.expander(label="References")
 xpand.write("""
