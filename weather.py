@@ -1,9 +1,15 @@
 import requests
 from requests.auth import HTTPBasicAuth
+import geocoder
+
+ 
+
+g = geocoder.ip('me')
+print(g.latlng)
 def current_weather():
     pass
 def access():
-    api_key = "1d253ef1d23a40f1990142008233005"
+    api_key = "95723526089a152f6fc08159191af257"
     api_url = "'http://api.weatherapi.com/v1/current.json?key="+api_key
     return api_url
 def get_weather():
@@ -13,4 +19,3 @@ def get_weather():
     }
     response = requests.get(base_url)
     print(response)
-get_weather()

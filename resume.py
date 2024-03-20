@@ -47,7 +47,7 @@ ppic = Image.open(ppic_file)
 pic_col, desc_col = st.columns(2, gap="small")
 with pic_col:
     st.image(ppic, width=225)
-with desc_col:
+with desc_col: 
     st.title(full_name)
     st.write(description)
     st.download_button(
