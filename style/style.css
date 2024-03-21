@@ -8,6 +8,14 @@ img {
     border: 1px solid #000;
     border-radius: 50%;
 }
+
+.StyledLinkIconContainer {
+    font-size: 10px;
+    border:  solid 3px red;
+
+}
+
+
 div.css-keje6w.e1tzin5v2 {
     
     margin-right: 10px !important;
