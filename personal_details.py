@@ -13,7 +13,7 @@ def social_media():
     "Gitlab": "https://gitlab.wethinkco.de/sndlovu023",
     "LinkedIn": "https://www.linkedin.com/in/sindiso-ndlovu-7897222b1",
     "GitHub": "https://github.com/ckoria",
-    "X": "https://twitter.com/tradingxposed"        
+    "X": "https://twitter.com/chrisikoria"        
     }
     
     
