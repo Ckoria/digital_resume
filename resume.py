@@ -15,7 +15,8 @@ style_file = current_dir / "style" / "style.css"
 
 for _ in range(1, 9):
     ppic = "ppc" + str(_) + ".png"
-    ppic_file = current_dir / "assets" / ppic 
+ppic_file = current_dir / "assets" / "ppc6.png" 
+logo = current_dir / "assets" / "kwc.png" 
 resume_pdf = current_dir / "assets" / "resume.pdf" 
 experience = current_dir / "assets" / "experience.txt"
 
@@ -39,7 +40,9 @@ with open(resume_pdf, "rb") as pdf_file:
     resume_file = pdf_file.read()
     
 ppic = Image.open(ppic_file)
+logo = Image.open(logo)
 
+st.image(logo)
 #  Personal Details Columns
 st.title(full_name)
 st.write(description)
