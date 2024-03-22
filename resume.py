@@ -15,7 +15,7 @@ style_file = current_dir / "style" / "style.css"
 
 for _ in range(1, 9):
     ppic = "ppc" + str(_) + ".png"
-    ppic_file = current_dir / "assets" / ppic 
+ppic_file = current_dir / "assets" / "ppc6.png 
 resume_pdf = current_dir / "assets" / "resume.pdf" 
 experience = current_dir / "assets" / "experience.txt"
 
