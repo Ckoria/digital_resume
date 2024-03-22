@@ -7,7 +7,7 @@ def job_one():
     st.subheader(":hammer_and_wrench: Work Experience")
     st.write("---")
     xpand = st.expander(label="Work Experience")
-    st.write(":technologist: Job Title: Web Developer & App Tester)")
+    st.write(":technologist: Job Title: Web Developer & App Tester")
     st.write(":capital_abcd: Company Name: Samsung Customer Service (12 Months Contract) ") 
     st.write(f"""
     :spiral_calendar_pad: Duration: {str(datetime(2022, 1, 26))[0:11]} - {str(datetime(2023, 4 , 30))[0:11]}

@@ -4,7 +4,7 @@
 page_title = "Sindiso Ndlovu | Digital CV"
 page_icon = ":100:"
 full_name = "Sindiso Christopher Ndlovu"
-description = "Junior Web Apps Developer and Data Analyst" 
+description = "Junior Software Developer and Data Analyst" 
 email_address = "sindiso.chris@gmail.com"
 
 
