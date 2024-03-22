@@ -6,7 +6,7 @@ a {
 }
 img: hover {
     width: 600px;
-    transition: 0.2s all;
+    transition : .2s all;
 }
 
 .StyledLinkIconContainer {
