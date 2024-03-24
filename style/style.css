@@ -53,6 +53,7 @@ hr {
 
 iframe, .styles_stateContainer__CelYF {
     display: none;
+    width: 0px;
 }
 
 #mainmenu, footer, header { 
