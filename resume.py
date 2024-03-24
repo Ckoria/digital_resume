@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function(event){
     });
 </script>
 '''
-components.html(html_string)
+st.markdown(f"html_string", unsafe_allow_html=True)
+
 for _ in range(1, 9):
     ppic = "ppc" + str(_) + ".png"
 ppic_file = current_dir / "assets" / "ppc6.png" 
