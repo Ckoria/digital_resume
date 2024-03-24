@@ -51,9 +51,10 @@ hr {
     margin-bottom: 5%;
 }
 
-.styles_stateContainer__CelYF {
+iframe, .styles_stateContainer__CelYF {
     display: none;
 }
+
 #mainmenu, footer, header { 
     visibility: hidden !important;
                           }
