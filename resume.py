@@ -13,18 +13,6 @@ from personal_details import *
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 style_file = current_dir / "style" / "style.css"
 
-html_string='''
-<script>
-// To break out of iframe and access the parent window
-const streamlitDoc = window.parent.document;
-
-// Make the replacement
-document.addEventListener("DOMContentLoaded", function(event){
-        streamlitDoc.getElementsByTagName("footer")[0].innerHTML = "Provided by <a href='https://yourwebsite.com' target='_blank' class='css-z3au9t egzxvld2'>Your Link Display Text Here</a>";
-    });
-</script>
-'''
-st.markdown(f"html_string", unsafe_allow_html=True)
 
 for _ in range(1, 9):
     ppic = "ppc" + str(_) + ".png"
