@@ -51,4 +51,9 @@ hr {
     margin-bottom: 5%;
 }
 
-#mainmenu, footer, header { visibility: hidden;}
+.styles_streamlitAppContainer__w82h8 {
+    display: none;
+}
+#mainmenu, footer, header { 
+    visibility: hidden !important;
+                          }
