@@ -52,6 +52,6 @@ iframe, .styles_stateContainer__CelYF {
     width: 0px;
 }
 
-#mainmenu, footer, header { 
+#mainmenu, footer, .viewerBadge_link__qRIco, header { 
     visibility: hidden !important;
                           }
