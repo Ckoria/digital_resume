@@ -4,10 +4,6 @@ a {
     color: beige !important;
     font-weight: 500;
 }
-img: hover {
-    width: 600px;
-    transition : .2s all;
-}
 
 .StyledLinkIconContainer {
     font-size: 10px;
