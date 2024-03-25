@@ -43,8 +43,7 @@ with open(resume_pdf, "rb") as pdf_file:
     resume_file = pdf_file.read()
 
 with open(style) as f:
-    st.markdown(f"<script>{f.read()}</script>", unsafe_allow_html=True)
-# st_javascript(style)
+    components.html(f"<script>{f.read()}</script>")
   
 ppic = Image.open(ppic_file)
 logo = Image.open(logo)
