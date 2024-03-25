@@ -1,5 +1,6 @@
 from pathlib import Path
 import streamlit as st
+from streamlit_javascript import st_javascript
 from PIL import Image
 from datetime import datetime
 from time import sleep
@@ -18,6 +19,7 @@ for _ in range(1, 9):
 ppic_file = current_dir / "assets" / "ppc6.png" 
 logo = current_dir / "assets" / "kwc.png" 
 resume_pdf = current_dir / "assets" / "resume.pdf" 
+style = current_dir / "scripts" / "style.js" 
 experience = current_dir / "assets" / "experience.txt"
 
 def write_json(json_file: json, data: dict) -> None:
@@ -38,7 +40,11 @@ with open(style_file) as f:
     
 with open(resume_pdf, "rb") as pdf_file:
     resume_file = pdf_file.read()
-    
+
+with open(style) as f:
+    st.markdown(f"<script>{f.read()}</script>", unsafe_allow_html=True)
+# st_javascript(style)
+  
 ppic = Image.open(ppic_file)
 logo = Image.open(logo)
 
