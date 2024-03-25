@@ -14,6 +14,7 @@ from personal_details import *
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 style_file = current_dir / "style" / "style.css"
 
+
 for _ in range(1, 9):
     ppic = "ppc" + str(_) + ".png"
 ppic_file = current_dir / "assets" / "ppc6.png" 
