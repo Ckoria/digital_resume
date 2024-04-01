@@ -40,9 +40,6 @@ with open(style_file) as f:
     
 with open(resume_pdf, "rb") as pdf_file:
     resume_file = pdf_file.read()
-
-with open(style) as f:
-    components.html(f"<script>{f.read()}</script>")
   
 ppic = Image.open(ppic_file)
 logo = Image.open(logo)
