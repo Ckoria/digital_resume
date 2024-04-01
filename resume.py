@@ -1,6 +1,5 @@
 from pathlib import Path
 import streamlit as st
-from streamlit_javascript import st_javascript
 from PIL import Image
 from datetime import datetime
 from time import sleep
