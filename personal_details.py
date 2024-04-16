@@ -21,9 +21,11 @@ def projects():
     return {
         "Mawox Work Management System (Credentials on request)": "https://mawox.pythonanywhere.com",
         "On the Move App Admin Website  (Credentials on request)": "https://mmallonthemove.co.za/",
-        "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601",
-        "Google Sheets and RepairShopr API Testing (Github Repo)": "https://github.com/Ckoria/APIs-Testing",
-        "MM All Status Tracker": "https://ckoria-ha-customers-get-customers-5w5cdv.streamlit.app/",
-        "Samsung Warranty Checker App": "https://ckoria--warranty-checker-display-2ah21s.streamlit.app/"
+        "Code Clinics": "https://codeclinic.streamlit.app/",
+        "KPIs Data Analytics": "https://mysoldashboard.streamlit.app/",
+        "Samsung Warranty Checker App": "https://samsung-warranty-checker.streamlit.app/",
+        "MM All Status Tracker": "https://pay-status.streamlit.app/",
+        "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601"
+        
             
         }
