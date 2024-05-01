@@ -24,7 +24,7 @@ def projects():
         "Code Clinics": "https://codeclinic.streamlit.app/",
         "KPIs Data Analytics": "https://mysoldashboard.streamlit.app/",
         "Samsung Warranty Checker App": "https://samsung-warranty-checker.streamlit.app/",
-        "MM All Status Tracker": "https://pay-status.streamlit.app/",
+        "SBB Minerals Website": "https://sbbminerals.com",
         "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601"
         
             
