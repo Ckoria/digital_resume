@@ -5,7 +5,7 @@ def edu_info():
         ['WeThinkCode | Software Engineering', '24 Months (2023 - 2024)', 
          'In Progress', 'https://www.wethinkcode.co.za/contact'],
         ["IBM SkillsBuild | Data Fundamentals", "1 Month (MAY 2024)", 
-         "Completed", 'https://www.credly.com/badges/2123f044-31c5-49be-8b1d-60e8e8f87225/public_url'], 
+         "Completed", 'https://www.credly.com/badges/c3e7e9bc-f96a-4446-b0f0-3de6245f280e/public_url'], 
         ["Cisco | Creating Compelling Reports", "1 Month (MAR 2024)", 
          "Completed", 'https://www.credly.com/badges/2123f044-31c5-49be-8b1d-60e8e8f87225/public_url'], 
         ["Coursera (AWS)  | AWS Cloud Technical Essentials", "1 Month (MAR 2024)", 
