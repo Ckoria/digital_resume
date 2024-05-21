@@ -7,30 +7,27 @@ def job_one():
     st.subheader(":hammer_and_wrench: Work Experience")
     st.write("---")
     xpand = st.expander(label="Work Experience")
-    st.write(":technologist: Job Title: Web Developer & App Tester")
-    st.write(":capital_abcd: Company Name: Samsung Customer Service (12 Months Contract) ") 
+    st.write(":technologist: Job Title: Bootcamp Assistant")
+    st.write(":capital_abcd: Company Name: WeThinkCode ") 
     st.write(f"""
-    :spiral_calendar_pad: Duration: {str(datetime(2022, 1, 26))[0:11]} - {str(datetime(2023, 4 , 30))[0:11]}
+    :spiral_calendar_pad: Duration: {str(datetime(2024, 5, 26))[0:11]} - 
     """)
     xpand = st.expander(label="Responsibilities")
     xpand.write("") 
     xpand.write("""
-    - ✔️ Development of Data Management System using Python Flask Framework, HTML5, CSS, and Javascript
-    - ✔️ Integration of RepairShopr internal system with Samsung GSPN system to avoid using both systems for data capturing and referencing
-    - ✔️ Automation of pricing system for Samsung parts sales instead of adjusting pricing manually since Samsung has thousands of parts for sale
-    - ✔️ Designed an Automated scheduler for in-home repairs using Google Sheets and Google App Scripts which improved customer service with a long shot and helped to clear a backlog from 2021  
-    - ✔️ Automated system for vehicles which helped with servicing vehicles on time and gas filling with a monthly budget prediction model using Python with Google Sheets APIs for data visualization
-    - ✔️ Developed warranty checking tool using Samsung APIs for efficiency instead of relying on the proof of purchase which was not reliable for warranty validation.   
-    - ✔️ My main role was to automate as many tasks as possible to improve performance and working processes.
-    - ✔️ Assist with the development of the OnTheMove App which tracks the movement of technicians and shows their live location.
+    - ✔️ Assist with queries regarding boot camp process 
+    - ✔️ Assist with technical issues, setting LMS using Linux commands, and programming environment.  
+    - ✔️ Assistance with coding in python
+    - ✔️ Setting up linux system installing network drivers, etc.
+
     """)
     xpand.write("") 
     xpand = st.expander(label="Reference")
     xpand.write("") 
     xpand.write("""
     - :handshake: Vinod
-    - :office_worker: Project Manager
-    - :telephone_receiver: (+91)96 626 61991
+    - :office_worker: Campus Team Manager
+    - :telephone_receiver: (+27)10 626 61991
     """)
     xpand.write("") 
 
@@ -39,7 +36,7 @@ def job_two():
     st.write(":technologist: Job Title: Systems & Web Developer")
     st.write(":capital_abcd: Company Name: Mawox Business Hub")
     st.write(f"""
-    :spiral_calendar_pad: Duration: {str(datetime(2018, 2, 1))[0:11]} - {str(datetime(2021, 12 , 27))[0:11]}
+    :spiral_calendar_pad: Duration: {str(datetime(2018, 2, 1))[0:11]} - 
     """)
     xpand = st.expander(label="Responsibilities")
     xpand.write("""
@@ -51,7 +48,7 @@ def job_two():
     """)
     xpand = st.expander(label="Reference")
     xpand.write("""
-    - :handshake: Nathi PJ Mlaba
+    - :handshake: Nathi Pieter-John
     - :office_worker: Founder and CEO
     - :telephone_receiver: (+27)78 339 2740
     """)
