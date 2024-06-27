@@ -18,8 +18,10 @@ def edu_info():
          "1 Month (AUG 2023)", "Completed", "https://coursera.org/share/e6b7f2942b30e50c32c2dfb560db3c31"], 
         ["Coursera  | IBM Intro to Data Science", "1 Month (FEB 2022)", 
          "Completed", "https://coursera.org/share/1f4afb233376528b9c25f58aced5c229"], 
-        ["The University of the Witswatersrand | BSc Computer Science", " 1 year (2015)", "Discontinued", ""],
-        ["Isibani Academy | Grade 12", "1 year (2014)", "Completed", ""]]
+        ["The University of the Witswatersrand | BSc Computer Science", " 1 year (2015)", "Discontinued",
+         "https://drive.google.com/file/d/1k8_PQd9I94XdbmZYPJ9mv-C9WO0R9KU0/view?usp=sharing"],
+        ["Isibani Academy | Grade 12", "1 year (2014)", "Completed", 
+         "https://drive.google.com/file/d/0B-wa3RCa4eV-bmZZMFExYWtTcUU/view?usp=sharing&resourcekey=0-jgAX2lMjw7EZGCQxrPwjeg"]]
 
 def education():
     st.subheader(":classical_building: Skills & Training")
