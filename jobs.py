@@ -25,7 +25,7 @@ def job_one():
     xpand = st.expander(label="Reference")
     xpand.write("") 
     xpand.write("""
-    - :handshake: Vinod
+    - :handshake: Zenani Zwane
     - :office_worker: Campus Team Manager
     - :telephone_receiver: (+27)10 626 61991
     """)
