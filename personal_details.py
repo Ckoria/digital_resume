@@ -19,12 +19,12 @@ def social_media():
     
 def projects():
     return {
+        "SBB Minerals Website": "https://sbbminerals.com", 
         "Mawox Work Management System (Credentials on request)": "https://mawox.pythonanywhere.com",
         "On the Move App Admin Website  (Credentials on request)": "https://mmallonthemove.co.za/",
         "Code Clinics": "https://codeclinic.streamlit.app/",
         "KPIs Data Analytics": "https://mysoldashboard.streamlit.app/",
         "Samsung Warranty Checker App": "https://samsung-warranty-checker.streamlit.app/",
-        "SBB Minerals Website": "https://sbbminerals.com",
         "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601"
         
             
