@@ -63,7 +63,7 @@ def job_three():
     """)
     xpand = st.expander(label="Responsibilities")
     xpand.write("""
-    - ✔️ Performing unit tests for On the Move mobile application
+    - ✔️ Performing quality assurance tests for on the Move mobile application
     - ✔️ Testing the performance of the Admin dashboard and suggest improvements
     - ✔️ Ensure that milestones are met and all functionalities are implemented at optimal performance 
     - ✔️ Adding styling on the visual appearance of the admin dashboard using CSS, javascript and Bootstrap
