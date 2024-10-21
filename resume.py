@@ -18,7 +18,7 @@ for _ in range(1, 9):
     ppic = "ppc" + str(_) + ".png"
 ppic_file = current_dir / "assets" / "ppc6.png" 
 logo = current_dir / "assets" / "kwc.png" 
-resume_pdf = current_dir / "assets" / "resume.pdf" 
+resume_pdf = current_dir / "assets" / "resume_sindiso_ndlovu.pdf" 
 style = current_dir / "scripts" / "style.js" 
 experience = current_dir / "assets" / "experience.txt"
 
