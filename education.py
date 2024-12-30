@@ -3,7 +3,7 @@ import streamlit as st
 def edu_info():
     return  [
         ['WeThinkCode | Software Engineering', '24 Months (2023 - 2024)', 
-         'In Progress', 'https://www.wethinkcode.co.za/contact'],
+         'Completed', 'https://drive.google.com/file/d/1FwA39xlcBthSjj1TWEQ-XlbK3x8N7GP0/view?usp=sharing'],
         ["IBM SkillsBuild | Data Fundamentals", "1 Month (MAY 2024)", 
          "Completed", 'https://www.credly.com/badges/c3e7e9bc-f96a-4446-b0f0-3de6245f280e/public_url'], 
         ["Cisco | Creating Compelling Reports", "1 Month (MAR 2024)", 
