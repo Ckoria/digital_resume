@@ -11,8 +11,7 @@ def social_media():
     return {
     "GitLab": "https://gitlab.wethinkco.de/sndlovu023",
     "LinkedIn": "https://www.linkedin.com/in/sindiso-ckoria-ndlovu",
-    "GitHub": "https://github.com/ckoria",
-    "X": "https://twitter.com/chrisikoria"        
+    "GitHub": "https://github.com/ckoria"        
     }
     
 def projects():
