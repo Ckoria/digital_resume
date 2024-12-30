@@ -19,11 +19,9 @@ def projects():
     return {
         "SBB Minerals Website": "https://sbbminerals.com", 
         "Mawox Work Management System (Credentials on request)": "https://mawox.onrender.com",
-        "Personal Portfolio: "https://ckoria.onrender.com/",
+        "Personal Portfolio": "https://ckoria.onrender.com/",
         "Code Clinics": "https://codeclinic.streamlit.app/",
         "KPIs Data Analytics": "https://mysoldashboard.streamlit.app/",
         "Samsung Warranty Checker App": "https://samsung-warranty-checker.streamlit.app/",
-        "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601"
-        
-            
+        "Mawox Google Sheets Inventory System": "https://docs.google.com/spreadsheets/d/1pw1ce5nJkPKr24XKhNC6MyzDzwRb8uiRCbPDB_WtsUU/edit#gid=1641138601"            
         }
