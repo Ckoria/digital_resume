@@ -10,7 +10,7 @@ email_address = "sindiso.chris@gmail.com"
 def social_media(): 
     return {
     "GitLab": "https://gitlab.wethinkco.de/sndlovu023",
-    "LinkedIn": "https://www.linkedin.com/in/sindiso-ndlovu-7897222b1",
+    "LinkedIn": "https://www.linkedin.com/in/sindiso-ckoria-ndlovu",
     "GitHub": "https://github.com/ckoria",
     "X": "https://twitter.com/chrisikoria"        
     }
