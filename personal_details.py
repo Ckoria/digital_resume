@@ -7,15 +7,13 @@ full_name = "Sindiso Christopher Ndlovu"
 description = "Junior Software Developer and Data Analyst" 
 email_address = "sindiso.chris@gmail.com"
 
-
 def social_media(): 
     return {
-    "Gitlab": "https://gitlab.wethinkco.de/sndlovu023",
+    "GitLab": "https://gitlab.wethinkco.de/sndlovu023",
     "LinkedIn": "https://www.linkedin.com/in/sindiso-ndlovu-7897222b1",
     "GitHub": "https://github.com/ckoria",
     "X": "https://twitter.com/chrisikoria"        
     }
-    
     
 def projects():
     return {
