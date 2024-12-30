@@ -20,8 +20,8 @@ def social_media():
 def projects():
     return {
         "SBB Minerals Website": "https://sbbminerals.com", 
-        "Mawox Work Management System (Credentials on request)": "https://mawox.pythonanywhere.com",
-        "On the Move App Admin Website  (Credentials on request)": "https://mmallonthemove.co.za/",
+        "Mawox Work Management System (Credentials on request)": "https://mawox.onrender.com",
+        "Personal Portfolio: "https://ckoria.onrender.com/",
         "Code Clinics": "https://codeclinic.streamlit.app/",
         "KPIs Data Analytics": "https://mysoldashboard.streamlit.app/",
         "Samsung Warranty Checker App": "https://samsung-warranty-checker.streamlit.app/",
